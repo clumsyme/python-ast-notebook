@@ -4,7 +4,7 @@ from ast import *
 import argparse
 from time import gmtime, strftime
 
-parser = argparse.ArgumentParser(description='Process some integers.')
+parser = argparse.ArgumentParser(description='Process python file with Transformer.')
 
 parser.add_argument('filename', metavar='filename', type=str, nargs=1, help='需要执行的文件名')
 
